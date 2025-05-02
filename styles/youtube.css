@@ -1,19 +1,41 @@
-.thumbnail{
-    width: 300px ;
-    display: block  ;
+.search-bar {
+  font-size: 20px;
+  display: block;
 }
-.search-bar{
-    font-size: 20px;
-    display: block;
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 7px;
 }
-.video-title{
-  
-    width: 300px;
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.channel-picture, .video-info{
+    display: inline-block;
+
+}
+.channel-picture{
+    width: 50px;
+    vertical-align: top;
+
+}
+.profile-pic{
+    width: 100%;
+}
+
+.video-info{
+    width: 200px;
+
+}
+
+
+.video-title {
+    margin-top: 0px;
 }
 /* .video-author, .video-stats{
     
 } */
-.video-preview{
-    width: 300px;
-    display: inline-block;
-}
