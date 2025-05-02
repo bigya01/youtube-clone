@@ -22,24 +22,24 @@ p{
     margin-bottom: 20px;
 }
 
-.channel-picture, .video-info{
-    display: inline-block;
 
-}
-.channel-picture{
-    width: 50px;
-    vertical-align: top;
 
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr  ;
 }
+
+/* .channel-picture{
+
+} */
 .profile-pic{
     width: 40px;
     border-radius: 50px
 }
 
-.video-info{
-    width: 200px;
+/* .video-info{
 
-}
+} */
 
 
 .video-title {
