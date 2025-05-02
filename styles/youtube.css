@@ -8,15 +8,20 @@ p{
   display: block;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 7px;
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 40px;
 }
-.thumbnail {
+
+/* .video-preview {
   width: 300px;
-  display: block;
+  vertical-align: top;
+  margin: 7px; */
+/* } */
+.thumbnail {
+  width: 100%;
 }
 .thumbnail-row{
     margin-bottom: 20px;
@@ -26,20 +31,12 @@ p{
 
 .video-info-grid{
     display:grid;
-    grid-template-columns: 50px 1fr  ;
+    grid-template-columns: 50px 1fr;
 }
-
-/* .channel-picture{
-
-} */
 .profile-pic{
     width: 40px;
     border-radius: 50px
 }
-
-/* .video-info{
-
-} */
 
 
 .video-title {
