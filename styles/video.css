@@ -1,12 +1,4 @@
-p{
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.search-bar {
-  font-size: 20px;
-  display: block;
-}
+
 
 .video-grid{
     display: grid;
