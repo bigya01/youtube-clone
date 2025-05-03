@@ -10,7 +10,7 @@ p{
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     column-gap: 16px;
     row-gap: 40px;
 }
@@ -20,9 +20,14 @@ p{
   vertical-align: top;
   margin: 7px; */
 /* } */
+
+
+/* image */
+
 .thumbnail {
   width: 100%;
 }
+/* image div */
 .thumbnail-row{
     margin-bottom: 20px;
 }
