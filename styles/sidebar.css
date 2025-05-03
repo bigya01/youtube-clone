@@ -1,0 +1,14 @@
+.sidebar{
+    width: 72px;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    top: 60px;
+
+    background-color: white;
+    
+}
+.sidebar-icon{
+    cursor: pointer;
+    size: 24px;
+}
